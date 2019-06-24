@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<et:purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ebay.in/sales/types file:///C:/Workshop/Trainings/WebServices/Batch20150211/namespaces/po.xsd"
+	xmlns:et="http://ebay.in/sales/types">
+	<orderItems>
+		<item>
+			<itemCode>
+				apples
+			</itemCode>
+			<quantity>20</quantity>
+		</item>
+		<item>
+			<itemCode>banana</itemCode>
+			<quantity>10</quantity>
+		</item>
+		<item>
+			<itemCode>mangoes</itemCode>
+			<quantity>10</quantity>
+		</item>
+		<item>
+			<itemCode>apples</itemCode>
+			<quantity>20</quantity>
+		</item>
+
+	</orderItems>
+	<shippingAddress>
+		<addressLine1>al1</addressLine1>
+		<addressLine2>al2</addressLine2>
+		<city>hyd</city>
+		<state>ap</state>
+		<zip>242</zip>
+		<country>india</country>
+	</shippingAddress>
+</et:purchaseOrder>
